@@ -1,0 +1,43 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.controlSection{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 220px;
+}
+
+.controlSection svg{
+    padding-top: 10px;
+}
+
+.descriptionSection{
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 50px;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    font-weight: bold;
+}
+
+.descriptionSection h1{
+    line-height:100%;
+    font-size:66px;
+    margin-top: 0;
+}
+.descriptionSection h1:hover{
+    text-decoration: underline;
+}
+
+.carouselSection{
+    grid-column-start: 6;
+    grid-column-end: 10;
+}
+
+.carouselSection img{
+    height: 500px;
+    width: 500px;
+}
+

@@ -1,0 +1,19 @@
+body {
+  background-color: #89ebf8;
+}
+
+.App {
+  text-align: center;
+}
+
+.carousel-section{
+margin-top: 50px;
+}
+
+/* footer */
+/* footer {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  bottom: 0;
+} */
